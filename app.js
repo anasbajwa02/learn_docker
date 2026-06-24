@@ -9,6 +9,10 @@ app.get("/", (req, res) => {
   res.send("Hello from Docker running on EC2 🚀");
 });
 
+app.get("/login",(req,res)=>{
+  res.send("your are loged in");
+
+})
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 })
