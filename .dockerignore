@@ -1,0 +1,43 @@
+# Git
+.git
+.gitignore
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.*
+
+# Build output
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+*.md
+
+# Docker files (optional)
+docker-compose.yml
+docker-compose.yaml
+
+# Tests
+coverage/
+test/
+tests/
+
+# Temporary
+tmp/
+temp/
